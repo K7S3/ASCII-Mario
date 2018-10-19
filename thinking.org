@@ -1,0 +1,72 @@
+* Gameplay
+
+** Overview 
+
+Time 400 seconds.
+Can die due to TLE.
+Number of lives 3.
+Score starts at zero.
+
+** Controls
+
+w - jump(press longer the higher he jumps)
+a - move left(can't move left once the screen has changed)
+d - move right
+
+** Sound
+
+Standard Mario Sound to be played.
+Sounds for enemy death, mario death and on rescuing princess.
+
+* Scenes
+** Mountains
+Adds Asthetic
+** Clouds
+Adds Asthetic
+
+* Characters
+
+** Mario
+Character be X.
+To see to import an image.
+Move left, right and jumps
+Can incorporate a throwing weapon.
+
+** Enemies
+Moves left or right on floor.
+Dies on touch from above.
+Death = 100 points.
+Upon hitting an enemy from left or right Mario's life is lost and game is restarted with one life less.
+
+** Mushroom 
+Makes Mario bigger on touching it.
+Ejected out from magic brick.
+
+** Princess
+Can be denoted as P
+Appears at the end.
+On rescuing the princess the score is calculated as current score + time left*5  
+The game is finished and score is displayed.
+
+* Obstacles
+
+** Bricks
+
+Constitute the floor and the jumps spots.
+
+*** Floor
+
+The one that he runs on. Prevents Mario from going down
+
+*** Normal Floating Brick 
+
+The one that he could jump on
+
+*** Mystery Floating Brick
+
+On touching from below gives 100 points.
+Ejects Mushroom Sometimes probability 1/5.
+** Tunnels
+
+The obstacle that he has to jump to cross.
+Can't go inside tunnel.
